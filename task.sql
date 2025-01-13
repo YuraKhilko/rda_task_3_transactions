@@ -13,7 +13,7 @@ INSERT INTO OrderItems ( OrderID, ProductID,Count)
 VALUES ( 1, 1,1);
 
 UPDATE Products SET WarehouseAmount = 41
-where p.id = '1';
+where id = '1';
 
 
 COMMIT; 
